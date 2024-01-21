@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.header {
+    position: sticky;
+    background-color: black;
+    color: white;
+    padding: 20px 10%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+body {
+    background-color: black;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 30px;
+    color: whitesmoke;
+}
+
+/* #circle{
+    width: 80pxpx;
+    height: 40px;
+    border-radius: 40%;
+    border: 2px solid white;
+    display: flex;
+    padding: 10px;
+} */
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0px 10px;
+    float: left;
+    display: flex;
+    /* justify-content: space-between; */
+}
+li a:hover{
+    color: darkgray;
+}
+
+.padding {
+    color: white;
+    font-size: 35px;
+    font-weight: 500;
+    padding: 0px 35%;
+}
+
+.family {
+    font-family: 'faturak';
+    font-style: normal;
+    position: sticky;
+}
+
+.brands {
+    padding: 0px 38%;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    position: sticky;
+}
+
+.space {
+    padding-left: 25%;
+    color: white;
+    font-size: 20px;
+    position: sticky;
+}
+
+.containnar {
+    width: 100%;
+    display: flex;
+    /* flex-direction:row; */
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.center img{
+    border-radius: 10px;
+}
+.order a{
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: none;
+    color:white;
+    /* padding: 45px; */
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: center; */
+    
+    
+}
+.order{
+    background-color:black;
+    border: 2px solid white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    
+    /* font: 30px;
+    font-weight: 500; */
+}
+.order a:hover{
+    color:dimgray;
+    cursor: pointer;
+}
+
+    
